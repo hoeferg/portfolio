@@ -1,16 +1,24 @@
 * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
     /* TO DO: Add styling componates to entire document */
 }
 
 .top-header {
-    /* TO DO: Add styling to top of page */
+    color: blue;
+    /* TO DO: Add styling to top of page./ 
+    /* This includes the about me section and work section. This includes the links for the other parts */
 }
 
-.body-content {
+.content-child {
+    color:bisque
     /* TO DO: Add styling to intro section */
-    /* Do you really need this section? */
+    /* This includes the about me section and work section.*/
 }
 
 footer {
-    
+    color:blueviolet
+    /* TO DO: Add styling for the footer. This is your contact info */
 }
