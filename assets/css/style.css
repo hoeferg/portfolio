@@ -11,9 +11,11 @@
     /* TO DO: Add styling to top of page./ 
     /* This includes the about me section and work section. This includes the links for the other parts */
 }
-
+#work {
+    color:orange
+}
 .content-child {
-    color:bisque
+    color: pink
     /* TO DO: Add styling to intro section */
     /* This includes the about me section and work section.*/
 }
