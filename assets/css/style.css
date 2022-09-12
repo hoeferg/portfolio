@@ -2,25 +2,79 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     /* TO DO: Add styling componates to entire document */
 }
+body {
+    background-color: bisque;
+}
 
-.top-header {
-    color: blue;
-    /* TO DO: Add styling to top of page./ 
-    /* This includes the about me section and work section. This includes the links for the other parts */
+header,
+footer {
+    width: 100%;
+    height: 100px;
+    line-height: 100px;
+    color: #f0ead6;
+    background-color: #191970;
 }
+
+header
+{
+    display:flex;
+    justify-content: space-between;
+
+}
+
+nav {
+    display: flex;
+    background-color: #191970;
+    color: #f0ead6;
+    flex-direction: row
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    margin: 15px;
+}
+
+main {
+    /* display: flex; 
+    flex-wrap: wrap;*/
+}
+
+h2{
+    font-weight: bolder;
+    text-align: left;
+    text-decoration: underline;
+}
+
+h3{
+    font-weight: bolder;
+}
+
+#about-me {
+    display: flex;
+}
+
 #work {
-    color:orange
+    background-color:orange
 }
+
+
 .content-child {
-    color: pink
+    background-color: pink
     /* TO DO: Add styling to intro section */
     /* This includes the about me section and work section.*/
 }
 
+#resume{
+    background-color: darkviolet;
+}
+
 footer {
-    color:blueviolet
+
     /* TO DO: Add styling for the footer. This is your contact info */
 }
