@@ -60,7 +60,17 @@ h3{
 }
 
 #work {
-    background-color:orange
+    background-color:orange;
+    display: flex;
+}
+
+#resume{
+    background-color: darkviolet;
+    display: flex;
+}
+
+#contact-me{
+    display: flex
 }
 
 
@@ -68,10 +78,6 @@ h3{
     background-color: pink
     /* TO DO: Add styling to intro section */
     /* This includes the about me section and work section.*/
-}
-
-#resume{
-    background-color: darkviolet;
 }
 
 footer {
