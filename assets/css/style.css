@@ -1,12 +1,14 @@
 * {
     box-sizing: border-box;
-    padding: 0;
+    padding: 5px;
     margin: 0;
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     /* TO DO: Add styling componates to entire document */
 }
 body {
     background-color: bisque;
+    flex-grow: 2;
+    
 }
 
 header,
@@ -29,7 +31,8 @@ nav {
     display: flex;
     background-color: #191970;
     color: #f0ead6;
-    flex-direction: row
+    flex-direction: row;
+    text-align:
 }
 
 ul {
@@ -47,7 +50,7 @@ main {
 
 h2{
     font-weight: bolder;
-    text-align: center;
+    text-align: left;
     text-decoration: underline;
     margin-top: 6em;
 }
@@ -58,8 +61,7 @@ h3{
 
 #about-me {
     display: flex;
-    text-align: center;
-   
+    text-align: center;  
 }
 
 #about-me p {
@@ -67,7 +69,7 @@ h3{
     margin-top:3.5em;
 }
 
-#portfolio-picture {
+#portfolio-photo {
     width: 11em;
     height: 11em;
 }
@@ -75,16 +77,22 @@ h3{
 #work {
     background-color:orange;
     display: flex;
+    text-align: center; 
     
 }
-.project-1 {
-    flex-direction: colum
+.project-1 p {
+    text-align: left;
+    margin-top:3.5em;
 }
 
-#contact-me{
-    display: flex
+.other-projects {
+    flex-direction: row;
 }
 
+#horiseon-photo {
+    width: 11em;
+    height: 16em;
+}
 
 .content-child {
     background-color: pink
@@ -93,11 +101,15 @@ h3{
 }
 
 @media screen and (max-width: 992px) {
-    .content-child {
-      width: 50%;
-    }
-    color:blue;
-footer {
-
-    /* TO DO: Add styling for the footer. This is your contact info */
+    .content-child 
+    {width: 50%;}
 }
+
+footer {
+    text-align: center;
+    display: flex;
+    margin: 10px;
+    color: white;
+    background-color: 191970;
+    display: block;
+    }
