@@ -47,8 +47,9 @@ main {
 
 h2{
     font-weight: bolder;
-    text-align: left;
+    text-align: center;
     text-decoration: underline;
+    margin-top: 6em;
 }
 
 h3{
@@ -62,8 +63,11 @@ h3{
 #work {
     background-color:orange;
     display: flex;
+    
 }
-
+.project-1 {
+    flex-direction: colum
+}
 #resume{
     background-color: darkviolet;
     display: flex;
