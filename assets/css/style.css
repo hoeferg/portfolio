@@ -58,6 +58,18 @@ h3{
 
 #about-me {
     display: flex;
+    text-align: center;
+   
+}
+
+#about-me p {
+    text-align: left;
+    margin-top:3.5em;
+}
+
+#portfolio-picture {
+    width: 11em;
+    height: 11em;
 }
 
 #work {
@@ -67,10 +79,6 @@ h3{
 }
 .project-1 {
     flex-direction: colum
-}
-#resume{
-    background-color: darkviolet;
-    display: flex;
 }
 
 #contact-me{
@@ -84,6 +92,11 @@ h3{
     /* This includes the about me section and work section.*/
 }
 
+@media screen and (max-width: 992px) {
+    .content-child {
+      width: 50%;
+    }
+    color:blue;
 footer {
 
     /* TO DO: Add styling for the footer. This is your contact info */
