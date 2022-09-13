@@ -3,6 +3,7 @@
     padding: 5px;
     margin: 0;
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    
     /* TO DO: Add styling componates to entire document */
 }
 body {
@@ -22,7 +23,7 @@ footer {
 
 header
 {
-    display:flex;
+    display:block;
     justify-content: space-between;
 
 }
@@ -35,22 +36,13 @@ nav {
     text-decoration: none;
 }
 
-nav ul{
-    color:white;
-    text-decoration: none;
-}
-
-ul {
-    display: flex;
-}
-
-li {
-    margin: 15px;
+ul{
+    color
 }
 
 main {
-    /* display: flex; 
-    flex-wrap: wrap;*/
+    display: flex; 
+    flex-wrap: wrap;
 }
 
 h2{
@@ -73,6 +65,7 @@ h3{
 #about-me p {
     text-align: left;
     margin-top:3.5em;
+    flex-wrap: wrap;
 }
 
 #portfolio-photo {
@@ -90,6 +83,9 @@ h3{
 #work p{
     text-align: left;
     margin-top:3.5em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .project-1 p {
     text-align: left;
@@ -98,6 +94,7 @@ h3{
 
 .other-projects {
     flex-direction: row;
+    flex: 0 0 200px;
 }
 
 .other-projects img {
@@ -122,10 +119,12 @@ h3{
 }
 
 footer {
-    text-align: center;
+    text-align: left;
     display: flex;
+    flex-direction: row;
     margin: 10px;
     color: white;
     background-color: 191970;
     display: block;
+    align-items: row;
     }
