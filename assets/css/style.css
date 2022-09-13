@@ -57,6 +57,7 @@ h2{
 
 h3{
     font-weight: bolder;
+    display: inline-block;
 }
 
 #about-me {
@@ -76,9 +77,14 @@ h3{
 
 #work {
     background-color:orange;
-    display: flex;
-    text-align: center; 
-    
+    display: flex; 
+    text-align: center;
+    margin-top:3.5em;  
+}
+
+#work p{
+    text-align: left;
+    margin-top:3.5em;
 }
 .project-1 p {
     text-align: left;
@@ -87,6 +93,11 @@ h3{
 
 .other-projects {
     flex-direction: row;
+}
+
+.other-projects img {
+    width:5em;
+    height:5em;
 }
 
 #horiseon-photo {
