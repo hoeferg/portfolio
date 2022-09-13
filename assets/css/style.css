@@ -32,7 +32,12 @@ nav {
     background-color: #191970;
     color: #f0ead6;
     flex-direction: row;
-    text-align:
+    text-decoration: none;
+}
+
+nav ul{
+    color:white;
+    text-decoration: none;
 }
 
 ul {
