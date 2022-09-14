@@ -16,15 +16,20 @@ header nav {
     display: flex;
     width: 20%;
     justify-content: space-evenly;
-    align-items: center;
-    
+    align-items: center;   
 }
 /* This affects the flex box with the nav elements in it */
 
+.button {
+    background-color: blueviolet;
+    
+}
+
 header a {
-    font-size: 1.0em;
+    font-size: 16px;
     text-decoration: none;
     font-weight: 2em;
+    color: black;
 }
 /* This directly affects the text in the nav bar. DO NOT apply flex box */
 
