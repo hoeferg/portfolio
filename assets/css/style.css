@@ -1,35 +1,35 @@
 header {
     display: flex;
-    background-color: blue;
+    background-color: rgb(125, 125, 244);
     justify-content: space-between;
 }
 /* This affect all of the header */
 
 header h2 {
     font-size: 3em;
-    background-color: red; 
     margin:20px;
 }
 /* This affects all of my name */
 
 header nav {
-    background-color: red;
     margin: 20px 40px 20px 20px;
     display: flex;
     width: 20%;
     justify-content: space-evenly;
     align-items: center;
+    
 }
 /* This affects the flex box with the nav elements in it */
 
 header a {
     font-size: 1.0em;
     text-decoration: none;
+    font-weight: 2em;
 }
 /* This directly affects the text in the nav bar. DO NOT apply flex box */
 
 section { 
-    background-color: pink;
+    background-color: rgb(155, 155, 182);
     display:flex;
     justify-content: space-evenly;
 }
@@ -39,7 +39,7 @@ section {
 h1 {
     font-size: 2em;
     padding:30px 60px 30px 30px;
-    background-color: red;
+    /* background-color: red; */
     text-align: center;
     border-right: 5px solid black;
 }
@@ -58,10 +58,10 @@ h1 {
 /* This section affects the paragraph in the about me section */
 
 #horiseon-title {
-    background-color: rgb(137, 137, 183);
+    /* background-color: rgb(137, 137, 183); */
     font-size:3em;
 }
-/* This directly effects the horiseon title */
+/* This directly effects the Horiseon title */
 
 #horiseon-photo {
     width: 200px;
@@ -70,15 +70,16 @@ h1 {
 /* This directly affect the Horiseon photo */
 /* TO DO find a better photo */
 #other-projects {
-    background-color: green;
+    /* background-color: green; */
     margin: 0px;
     display: flex; 
     flex-wrap: wrap;
     width: 100vw;
     justify-content: space-between;
     align-items: center;  
+    padding-left: 10em;
 }
-/* This section affects the entire other porjects section */
+/* This section affects the entire other projects section */
 
 .projects {
     padding: 20px;
@@ -93,7 +94,7 @@ h1 {
 
 footer {
     text-align: center;
-    background-color: rgb(194, 194, 245);
+    background-color: rgb(125, 125, 244);
     color:black;
     text-decoration: none;
 }
@@ -104,10 +105,18 @@ footer ul {
     text-align: center;
     justify-content: space-evenly;
     padding-top: 0.5em;
+    padding-right: 3em;
     text-decoration: none;
-    color:black
+    color:black;
+    font-size: 20px;
 }
 /* This section only affects the ul elements in the footer */
+
+@media screen and (max-width: 1200px) {
+    .card {
+    width: 25%;
+    }
+}
 
 @media screen and (max-width: 992px) {
     .card {
@@ -120,8 +129,10 @@ footer ul {
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 576px) {
     .card {
     width: 25%;
     }
 }
+
+/* This section shows the break between different screen sizes */
