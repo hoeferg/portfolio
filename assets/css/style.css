@@ -72,13 +72,18 @@ h1 {
 #other-projects {
     background-color: green;
     margin: 0px;
-    /* display: flex; */
-    /* flex-wrap: wrap; */
-    width: 20%;
+    display: flex; 
+    flex-wrap: wrap;
+    width: 100vw;
     justify-content: space-between;
     align-items: center;  
 }
 /* This section affects the entire other porjects section */
+
+.projects {
+    padding: 20px;
+    width: 50vw;
+}
 
 #other-project-photos {
     width: 9em;
@@ -114,13 +119,4 @@ footer ul {
     width: 100%;
     }
 
-/* Delete everything after this */
-#titleimage h3 { 
-    font-size:2em;
-    margin: 30px;
-    text-align: center;
-}
-#description {
-    background-color: orange;
-    max-width: 50%;
-}
+ 
