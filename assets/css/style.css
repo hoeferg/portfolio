@@ -27,6 +27,14 @@ header a {
 }
 /* This directly affects the text in the nav bar. DO NOT apply flex box */
 
+section { 
+    background-color: pink;
+    display:flex;
+    justify-content: space-evenly;
+}
+
+/* Applies to spacing between all elements in document. DO NOT edit. */
+
 h1 {
     font-size: 2em;
     padding:30px 60px 30px 30px;
@@ -48,13 +56,6 @@ h1 {
 }
 /* This section affects the paragraph in the about me section */
 
-
-section {
-    background-color: pink;
-    display:flex;
-    justify-content: space-evenly;
-}
-/* I don't know what this applies too */
 #horiseon-title {
     background-color: rgb(137, 137, 183);
     font-size:3em;
