@@ -1,121 +1,147 @@
+* {
+    box-sizing: border-box;
+}
+
+:root{
+    --primary:black;
+    --secondary:white;
+    --tertiary:aqua;
+    --dark:gray;
+    --light:green;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:var(--primary);
+    background-color:var(--light);
+    line-height: 1.5;
+}
+
+h1, h2, h3, h4, p {
+    margin: 0;
+}
+
 header {
+    padding: 15px 6% 15px 0;
     display: flex;
-    background-color: rgb(125, 125, 244);
+    flex-direction: row;
     justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: var(--tertiary);
 }
 /* This affect all of the header */
 
 header h2 {
-    font-size: 3em;
-    margin:20px;
+    color: var(--tertiary);
+    background-color: var(--secondary);
+    padding: 5px 1% 5px 6%;
+    font-size: 3vw;
+    line-height: 1;
 }
 /* This affects all of my name */
 
-header nav {
-    margin: 20px 40px 20px 20px;
+nav {
     display: flex;
-    width: 20%;
-    justify-content: space-evenly;
-    align-items: center;   
+    flex-direction: row;  
+    flex-wrap: wrap;
 }
 /* This affects the flex box with the nav elements in it */
 
-.button {
-    background-color: blueviolet;
-    
-}
-
-header a {
-    font-size: 16px;
+nav a {
     text-decoration: none;
-    font-weight: 2em;
-    color: black;
-}
-/* This directly affects the text in the nav bar. DO NOT apply flex box */
-
-section { 
-    background-color: rgb(155, 155, 182);
-    display:flex;
-    justify-content: space-evenly;
-}
-
-/* Applies to spacing between all elements in document. DO NOT edit. */
-
-h1 {
-    font-size: 2em;
-    padding:30px 60px 30px 30px;
-    /* background-color: red; */
-    text-align: center;
-    border-right: 5px solid black;
-}
-/* This directly affect the About Me title */
-
-#portfolio-photo {
-    width: 10.5em;
-    height: 10.5em;
-}
-/* This directly affect the profile picture */
-
-#about-me-p {
-    text-align: center;
-    margin-top: 3em;
-}
-/* This section affects the paragraph in the about me section */
-
-#horiseon-title {
-    /* background-color: rgb(137, 137, 183); */
-    font-size:3em;
-}
-/* This directly effects the Horiseon title */
-
-#horiseon-photo {
-    width: 200px;
-    height: 175px;
-}
-/* This directly affect the Horiseon photo */
-/* TO DO find a better photo */
-#other-projects {
-    /* background-color: green; */
-    margin: 0px;
-    display: flex; 
-    flex-wrap: wrap;
-    width: 100vw;
-    justify-content: space-between;
-    align-items: center;  
-    padding-left: 10em;
-}
-/* This section affects the entire other projects section */
-
-.projects {
-    padding: 20px;
-    width: 50vw;
+    padding: 5px 10px;
+    color: var(--secondary);
+    margin-right: 10px;
+    background-image: linear-gradient(270deg, var(--secondary) 0%, var(--secondary) 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 0.2em;
+    background-position: bottom;
+    transition: all 0.25s ease-in;
+    font-size: 1.4rem;
 }
 
-#other-project-photos {
-    width: 9em;
-    height:10em;
+nav a:hover{
+    background-size: 100% 100%;
+    color:var(--primary)
 }
-/* This section affects the pictures in the other projects section */
 
-footer {
-    text-align: center;
-    background-color: rgb(125, 125, 244);
-    color:black;
-    text-decoration: none;
+nav a:last-child{
+    margin-right: 0;
 }
-/* This section affect the whole footer */
 
-footer ul {
+main {
+    margin-top: 20px;
+    margin-bottom: 45px;  
+}
+
+.page-wrapper {
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.page-section {
+    margin: 25px 0;
+    padding: 10px 0;
     display: flex;
-    text-align: center;
-    justify-content: space-evenly;
-    padding-top: 0.5em;
-    padding-right: 3em;
-    text-decoration: none;
-    color:black;
-    font-size: 20px;
+    flex-direction: row;
+    flex-wrap:wrap;
+    align-items: stretch;
+    justify-content: space-between;
 }
-/* This section only affects the ul elements in the footer */
+
+.page-section > h2{
+    flex: 0 0 20%;
+    text-align: right;
+    padding-right: 15px;
+    border-right: 4px solid var(--primary);
+    font-size: 4vw;
+    line-height: 1.1;
+}
+
+.page-section > div {
+    flex: 0 0 77%;
+}
+
+.page-section p {
+    margin-bottom: 20px;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.flex-item {
+    border: 5px solid var(--secondary);
+    background-color: var(--primary);
+    color: var(--tertiary);
+    min-height: 150px;
+    max-height: 150px;
+    flex-basis: calc(50% - 1em);
+    display: flex;
+    align-items: flex-end;
+    padding: 0 0 20px 0;
+    margin: 0.5em;
+    text-decoration: none;
+    background-blend-mode: soft-light;
+    background-size: 150%;
+    transition: all 0.5s;
+    font-size: 0.9rem;
+}
+
+.flex-item:first-child{
+    min-height: 400px;
+    flex-basis: 100%;
+}
+
+.flex-item work2 {
+    background-image: url("../images/02-run-buddy.jpg");
+  }
 
 @media screen and (max-width: 1200px) {
     .card {
