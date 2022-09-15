@@ -59,6 +59,7 @@ h1 {
 #about-me-p {
     text-align: center;
     margin-top: 3em;
+    font-size: 120%;
 }
 /* This section affects the paragraph in the about me section */
 
@@ -68,12 +69,17 @@ h1 {
 }
 /* This directly effects the Horiseon title */
 
+#project1-p {
+    font-size: 160%;
+
+}
+
 #horiseon-photo {
-    width: 200px;
-    height: 175px;
+    width: 280px;
+    height: 280px;
 }
 /* This directly affect the Horiseon photo */
-/* TO DO find a better photo */
+
 #other-projects {
     /* background-color: green; */
     margin: 0px;
@@ -83,8 +89,14 @@ h1 {
     justify-content: space-between;
     align-items: center;  
     padding-left: 10em;
+    font-size: 113%
 }
 /* This section affects the entire other projects section */
+
+.otherp{
+    width: 35%;
+    padding-top: 8%;
+}
 
 .projects {
     padding: 20px;
@@ -139,5 +151,3 @@ footer ul {
     width: 25%;
     }
 }
-
-/* This section shows the break between different screen sizes */
