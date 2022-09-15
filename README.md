@@ -10,15 +10,11 @@ N/A
 
 ## Installation
 
-Go to the website hoeferg
+Go to the website https://hoeferg.github.io/portfolio/
 
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
-
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative file path, add it to your README using the following syntax:
-
-![alt text](assets/images/screenshot.png)
+This project is to be used to show off the work done by Gayle Hoefer
 
 ## Credits
 N/A
