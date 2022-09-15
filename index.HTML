@@ -11,19 +11,24 @@
 
 <body>
     <header>
-        <h1>Gayle Hoefer</h1> 
-        <nav>  
-            <a href="#about-me">About Me</a>            
+       <h2>Gayle Hoefer</h2> 
+       <nav>
+        <button class="button"> 
+            <a href="#about-me">About Me</a>     
+        </button>
+        <button class="button"> 
             <a href="#works">My Works</a>
+        </button>
+        <button class="button">
             <a href="#contact-me">Contact Me</a>
-        </nav>
+        </button>
+       </nav>
     </header>
-
+</body>
 <!-- These links connect to the other parts of the page -->
-<main class="page-wrapper">
-
-    <section id="about-me" class="content-child page-section">
-        <h2> About Me</h2>
+<main>
+    <section id="about-me" class="content-child">
+        <h1> About Me</h1>
             <img id="portfolio-photo" src="assets/images/portfolio-picture.png" alt="Picture of Gayle Hoefer">
                 <div id="about-me-p">
                     <p>Gayle Hoefer is a front-end web-developer. She learned coding the University of Arizona coding bootcamp. The program was completed in December 2022. Before she was a web-developer, she taught middle school science for two years. </p>
@@ -31,76 +36,88 @@
     </section>
     <!-- The project is for the Horizen project. Make sure to replace this in the future with a better project. -->
     
-    <section id="works" class="page-section">
-        <h2>My Works</h2>
-        <div class="flex-container">
-            <a href="https://hoeferg.github.io/challenge01/" class="flex-item work1">
-                <div>
-                    <h3>Horiseon</h3>
-                    <span>
-                        code refactor
-                    </span>
-                </div>
-            </a>
-
-              <a href="#" class="flex-item work2">
-                <div>
-                    <h3>Horiseon</h3>
-                    <span>
-                        code refactor
-                    </span>
-                </div>
-            </a>
-
-            <a href="#" class="flex-item work3">
-                <div>
-                    <h3>Horiseon</h3>
-                    <span>
-                        code refactor
-                    </span>
-                </div>
-            </a>
-
-            <a href="#" class="flex-item work4">
-                <div>
-                    <h3>Horiseon</h3>
-                    <span>
-                        code refactor
-                    </span>
-                </div>
-            </a>
-
-            <a href="#" class="flex-item work5">
-                <div>
-                    <h3>Horiseon</h3>
-                    <span>
-                        code refactor
-                    </span>
-                </div>
-            </a>
+    <section id="works">
+        <h1>My Works</h1>
+        <div id="horiseon-title">
+            <h3>Horiseon</h3>
+                <p><a href="https://hoeferg.github.io/challenge01/">
+                    <img id="horiseon-photo" 
+                src="assets/images/reputation.png" 
+                alt="picture of reputation graph going up." ></a></p>
         </div>
-    </section>
         <!-- Keep Project 1 and description separate for flex box -->
         <!-- The image needs to stay linked to website -->
         <!-- TODO: update link to website for picture -->
-      
+        <div id="project1-p">
+            <p>The task for horiseon was to update code to reduce the amount of divs. Then the CSS document was edited to limit the amount of repeats that occurs in the code.</p>
+        </div>
+        <!-- TODO: change about-me-p id -->
+    </section>
+    <!-- Make sure the section stays separate. -->
+
+    <!-- The rest of the projects should stay in a separate box -->
+    <section id="other-projects">
+        <!-- This section should include projects 2 - 5 -->
+        <section class="projects">
+            <!-- This section should only include project 2 -->
+        <div>
+            <h4>Project 2</h4>
+            <img id="other-project-photos" src="https://via.placeholder.com/200" alt="placeholder" >
+        </div>
+        <div class="otherp"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed voluptatum error, nobis harum a quos, officia velit in natus porro veniam deserunt, assumenda cupiditate soluta iusto dignissimos eum necessitatibus sequi?
+        </div>
+        </section>
+
+        <!-- Keep this connected to project 3, 4, and 5 -->
+        <section class="projects">
+            <!-- This section should only include project 3 -->
+        <div>
+            <h4>Project 3</h4>
+            <img id="other-project-photos" src="https://via.placeholder.com/200" alt="placeholder">
+        </div>
+        <div class="otherp"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed voluptatum error, nobis harum a quos, officia velit in natus porro veniam deserunt, assumenda cupiditate soluta iusto dignissimos eum necessitatibus sequi?</div>
+        </section>
+
+        <section class="projects">
+            <!-- This section should only include project 4 -->
+        <div>
+            <h4>Project 4</h4>
+            <img id="other-project-photos" src="https://via.placeholder.com/200" alt="placeholder">
+        </div>
+        <div class="otherp"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed voluptatum error, nobis harum a quos, officia velit in natus porro veniam deserunt, assumenda cupiditate soluta iusto dignissimos eum necessitatibus sequi?</div>
+        </section>
+
+        <section class="projects">
+            <!-- This section should only include project 5 -->
+        <div>
+            <h4>Project 5</h4>
+            <img id="other-project-photos" src="https://via.placeholder.com/200" alt="placeholder">
+        </div>
+        <div class="otherp"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed voluptatum error, nobis harum a quos, officia velit in natus porro veniam deserunt, assumenda cupiditate soluta iusto dignissimos eum necessitatibus sequi?</div>
+        </section>
+        
+        <section class="projects">
+            <!-- This section should only include project 6 -->
+        <div>
+            <h4>Project 6</h4>
+            <img id="other-project-photos" src="https://via.placeholder.com/200" alt="placeholder">
+        </div>
+        <div class="otherp"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed voluptatum error, nobis harum a quos, officia velit in natus porro veniam deserunt, assumenda cupiditate soluta iusto dignissimos eum necessitatibus sequi?</div>
+        </section>
 
 <!-- This section closed the entire work section -->
+    </section>
     </main>
     <!-- The is main is the end of the main body of the doc -->
-</body>
-<footer class="page-section" id="contact-me">
-    <h2>Contact Me</h2>
-    <div>
+<footer id="contact-me">
+    <h3>Contact Me</h3>
         <ul>
             <a>555-555-5555</a>
             <a href="http://mail.google.com">gaylehoefer@gmail.com</a>
             <a href="https://github.com/hoeferg">Github</a>
             <!-- Need to link git hub -->
         </ul>
-    </div>
 </footer>
-</html>
 
 <!-- TODO:add link to readme when lanch to readme -->
 <!-- TODO: add screen shot to readme -->
