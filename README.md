@@ -2,14 +2,7 @@
 
 ## Description
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
-
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
-
-This document is used to display the projects that Gayle Hoefer has created. This website is used so that future employer can see what is possible when hiring Gayle.
+This document is used to display the projects that Gayle Hoefer has created. This website is used so that future employer can see what is possible when hiring Gayle. I was able to learn how to link the webpage to its self. I was also able to learn many CSS commands.
 
 ## Table of Contents (Optional)
 
