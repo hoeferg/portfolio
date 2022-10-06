@@ -50,6 +50,15 @@ h1 {
 }
 /* This directly affect the About Me title */
 
+#main {
+    background-image: url("https://media.sproutsocial.com/uploads/2017/02/10x-featured-social-media-image-size.png");
+    min-height: 200px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 #portfolio-photo {
     width: 10.5em;
     height: 10.5em;
