@@ -1,162 +1,130 @@
-header {
-    display: flex;
-    background-color: rgb(125, 125, 244);
-    justify-content: space-between;
-}
-/* This affect all of the header */
-
-header h2 {
-    font-size: 3em;
-    margin:20px;
-}
-/* This affects all of my name */
-
-header nav {
-    margin: 20px 40px 20px 20px;
-    display: flex;
-    width: 20%;
-    justify-content: space-evenly;
-    align-items: center;   
-}
-/* This affects the flex box with the nav elements in it */
-
-.button {
-    background-color: blueviolet;
-    
-}
-
-header a {
-    font-size: 16px;
-    text-decoration: none;
-    font-weight: 2em;
-    color: black;
-}
-/* This directly affects the text in the nav bar. DO NOT apply flex box */
-
-section { 
-    background-color: rgb(155, 155, 182);
-    display:flex;
-    justify-content: space-evenly;
-}
-
-/* Applies to spacing between all elements in document. DO NOT edit. */
-
-h1 {
-    font-size: 2em;
-    padding:30px 60px 30px 30px;
-    /* background-color: red; */
-    text-align: center;
-    border-right: 5px solid black;
-}
-/* This directly affect the About Me title */
-
-#main {
-    background-image: url("https://media.sproutsocial.com/uploads/2017/02/10x-featured-social-media-image-size.png");
-    min-height: 200px;
+#header-img {
+    vertical-align: bottom;
+    height: 250px;
+    max-height: 250px;
     width: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    object-fit: cover;
+    object-position: 100% 55%;
+    border: 10px solid #9bb7d0;
 }
 
-#portfolio-photo {
-    width: 10.5em;
-    height: 10.5em;
-}
-/* This directly affect the profile picture */
-
-#about-me-p {
-    text-align: center;
-    margin-top: 3em;
-    font-size: 120%;
-}
-/* This section affects the paragraph in the about me section */
-
-#horiseon-title {
-    /* background-color: rgb(137, 137, 183); */
-    font-size:3em;
-}
-/* This directly effects the Horiseon title */
-
-#project1-p {
-    font-size: 160%;
-
+header{
+    position: sticky;
+    top: 0px;
 }
 
-#horiseon-photo {
-    width: 280px;
-    height: 280px;
-}
-/* This directly affect the Horiseon photo */
 
-#other-projects {
-    /* background-color: green; */
-    margin: 0px;
-    display: flex; 
-    flex-wrap: wrap;
-    width: 100vw;
-    justify-content: space-between;
-    align-items: center;  
-    padding-left: 10em;
-    font-size: 113%
-}
-/* This section affects the entire other projects section */
-
-.otherp{
-    width: 35%;
-    padding-top: 8%;
+figure {
+    margin-left: 16px;
+    margin-top: 30px;
 }
 
-.projects {
-    padding: 20px;
-    width: 50vw;
+#welcome{
+    border: solid;
+    margin-top: 30px;
+    margin-left: 40px;
+}    
+
+#welcome h2{
+    font-size: 48px;
+    text-shadow: 5px 5px 10px;
+}    
+
+
+.welcome-p {
+    text-indent: 15px;
+    font-size: 24px;
+    padding-left: 10px;
+}    
+
+#welcome-list{
+    font-size: 24px;
+    margin-left: 20px;
 }
 
-#other-project-photos {
-    width: 9em;
-    height:10em;
+#my-works-hdr{
+    margin-top: 50px;
+    box-shadow: 0 0 20px;
 }
-/* This section affects the pictures in the other projects section */
 
-footer {
-    text-align: center;
-    background-color: rgb(125, 125, 244);
-    color:black;
-    text-decoration: none;
+#day-sched-btn:hover{
+    box-shadow: 0px 0px 40px;
+    background-color:rgb(54, 107, 168);
+    color: #fff;
 }
-/* This section affect the whole footer */
 
-footer ul {
+#non-social-btn:hover{
+    box-shadow: 0 0px 40px;
+    background-color: rgb(54, 107, 168);
+    color: #fff;
+}
+
+
+#generate-psswd-btn:hover{
+    box-shadow: 0 0px 40px;
+    background-color: rgb(54, 107, 168);
+    color: #fff;
+}
+
+.btn{
+    background-color: #2e4a62;
+    color: whitesmoke;
+}
+
+#btn-plate{
+    margin-top: 40px;
+    background-color: #9c4c3d;
+}
+
+@media screen and (max-width:600px){
+.welcome-p{
+    font-size: 16px;
+}
+
+#welcome{
+    margin-left: 16px;
+}
+
+#welcome-list{
+    font-size: 16px;
+}
+
+main{
     display: flex;
-    text-align: center;
-    justify-content: space-evenly;
-    padding-top: 0.5em;
-    padding-right: 3em;
-    text-decoration: none;
-    color:black;
-    font-size: 20px;
+    flex-direction: column;
 }
-/* This section only affects the ul elements in the footer */
+
+#id-card{
+    order: 4;
+    margin-top: 30px;
+    margin-left: 16px;
+}
+}
+Footer
+© 2022 GitHub, Inc.
+Footer navigation
+Terms
 
 @media screen and (max-width: 1200px) {
     .card {
-    width: 25%;
+        width: 25%;
     }
 }
 
 @media screen and (max-width: 992px) {
     .card {
-    width: 50%;
+        width: 50%;
     }
 }
+
 @media screen and (max-width: 768px) {
     .card {
-    width: 50%;
+        width: 50%;
     }
 }
 
 @media screen and (max-width: 576px) {
     .card {
-    width: 25%;
+        width: 25%;
     }
 }
