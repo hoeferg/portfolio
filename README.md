@@ -11,7 +11,7 @@
 
 ## Description
 
-This document is used to display the projects that Gayle Hoefer has created. This website is used so that future employer can see what is possible when hiring Gayle. I was able to learn how to link the webpage to its self. I was also able to learn many CSS commands.
+This document is used to display the projects that Gayle Hoefer has created. This website is used so that future employer can see what is possible when hiring Gayle. I was able to learn how to link the webpage to its self. This was the first interation of the portfollio.
 
 ## Usage
 
